@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    font-family: "Winky Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.segunda img{
+    width: 500px;
+    border-radius: 10px;
+}
+header{
+    background-color: #808F87;
+    margin: 0;
+    padding: 15px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    width: 140px    ;
+    border-radius: 110px;
+}
+nav  a{
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+footer{
+    text-align: center;
+    background-color: #373F47;
+    padding: 30px;
+    margin: -15px;
+}
+footer p{
+    color: white;
+}
+.allc img{
+    width: 150px;
+}
+.allc{
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.cards{
+    margin: 15px;
+    border-color: black;
+    padding: 30px 0px ;
+    border: #373F47;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px
+    
+}
+nav a:hover{
+    text-decoration: underline;
+
+}
+main{
+    background-color: #ffffff;
+    color: black;
+}
+main h1{
+    text-align: center;
+}
+button{
+    background-color: #808F87;
+    border-radius: 10px;
+    border-style: none;
+}
+.segunda{
+    width: 500px;
+    border-radius: 10px;
+}
+.info{
+    display: c;
+    justify-content: center;
+}
