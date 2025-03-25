@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    font-family: "Winky Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#F2D5F8 ;
+    
+}
+nav a:hover{
+    text-decoration: underline;
+    transform: scale(1.5);
+}
+footer{
+    text-align: center;
+    background-color: #373F47;
+    padding: 30px;
+    margin-bottom: -15px;
+}
+footer p{
+    color: white;
+}
+header{
+    background-color: #808F87;
+    margin: 0;
+    padding: 15px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    width: 140px    ;
+    border-radius: 110px;
+}
+nav  a{
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+section img{
+    width: 150px;
+}
+section{
+    text-align: center;
+    display:inline-flex;
+    justify-content:center;
+}
+.cards{
+    margin: 15px;
+    border-color: black;
+    padding: 30px 0px ;
+    border: #373F47;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px
+    
+}
+.cards:hover{
+    transform: scale(1.1);
+}

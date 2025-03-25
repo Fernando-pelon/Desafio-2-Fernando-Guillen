@@ -7,6 +7,7 @@ body{
 .segunda img{
     width: 500px;
     border-radius: 10px;
+    padding: 20px;
 }
 header{
     background-color: #808F87;
@@ -59,7 +60,7 @@ footer p{
 }
 nav a:hover{
     text-decoration: underline;
-
+    transform: scale(1.5);
 }
 main{
     background-color: #ffffff;
@@ -72,12 +73,58 @@ button{
     background-color: #808F87;
     border-radius: 10px;
     border-style: none;
+    text-align: center;
+    
+}
+button:hover{
+    transform: scale(1.2);
 }
 .segunda{
     width: 500px;
     border-radius: 10px;
 }
 .info{
-    display: c;
+    display: flex;
+    text-align: center;
+    background-color: #F2D5F8;
+    border-radius: 10px;
+    width: 1000px;
+    margin: 30px;
     justify-content: center;
+}
+div button{
+    width: 100px;
+    height: 50px;
+
+}
+div a{
+    width: 100px;
+    text-decoration: none;
+    color:white;
+}
+.textoboton{
+    padding: 10px;
+}
+.cards:hover{
+    transform: scale(1.1);
+    background-color: #808F87;
+}
+.cardsimg{
+    border-radius: 10px;
+
+}
+.textoboton p{
+    font-size: 30px;
+}
+.allc h2{
+    color: #EAC8CA;
+}
+.historia{
+    padding: 10px;
+    margin: 10px;
+    width: 500px;
+    justify-content: center;   
+    text-align: center;
+    border-radius: 10px;
+    margin: 30px;
 }
